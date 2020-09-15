@@ -23,6 +23,10 @@
     />
     <link
       rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
+    />
+    <link
+      rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
       type="text/css"
     />
@@ -30,7 +34,53 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-light navbar-expand-sm center_content">
+
+<button class="mobile-nav-toggle mr-auto d-lg-none"  type="button" data-toggle="collapse"
+data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+aria-label="Toggle_navigation">
+<span> <i class="fas fa-bars"></i> </span>
+</button>
+
+      <div id="navbarNavDropdown" class="d-lg-none bg-menu" >
+      <ul class="navbar-nav mr-auto">
+        <li>
+          <a href="#home"><span>Home</span></a>
+        </li>
+        <li>
+          <a href="#about"><span>About</span></a>
+        </li>
+        <li>
+          <a href="#skills"><span>Skills</span></a>
+        </li>
+        <li>
+          <a href="#resume"><span>Resume</span></a>
+        </li>
+        <li>
+          <a href="#contact"><span>Contact</span></a>
+        </li>
+      </ul>
+      </div>
+      <ul class="dropdown-menu">
+        <li>
+          <a href="#home"><span>Home</span></a>
+        </li>
+        <li>
+          <a href="#about"><span>About</span></a>
+        </li>
+        <li>
+          <a href="#skills"><span>Skills</span></a>
+        </li>
+        <li>
+          <a href="#resume"><span>Resume</span></a>
+        </li>
+        <li>
+          <a href="#contact"><span>Contact</span></a>
+        </li>
+      </ul>
+  
+
+    <!--<nav class="navbar navbar-light navbar-expand-sm center_content">-->
+    <nav class="navbar-menu d-none d-lg-block">
       <ul class="navbar mr-auto">
         <li class="active nav-item mr-4">
           <a href="#home"
@@ -91,13 +141,11 @@
 
     <!-- ========== Home Section ========== -->
     <section id="home" class="d-flex flex-column justify-content-center">
-       
-<div class="container-fluid">
- <h1>I'm José Querales (Dr.)</h1>
+      <div class="container-fluid">
+        <h1>I'm José Querales (Dr.)</h1>
         <p>
           Physicist & Software Development Student
         </p>
-
 
         <p class="lead">
           <a class="btn btn-primary btn-lg" href="#" role="button"
@@ -107,47 +155,39 @@
             >Contact me!</a
           >
         </p>
-     <div class="social-links">
+        <div class="social-links">
           <a href="#"><i class="fab fa-github"></i></a>
           <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-researchgate"></i></a>
+          <a href="#"><i class="ai ai-google-scholar-square"></i></a>
         </div>
       </div>
-</div>
-
-
-
-
     </section>
-
-
-
-     
-    
 
     <!-- ========== About Section ========== -->
 
     <section id="about">
-      <p>Something about me</p>
+      <h2>About Me</h2>
     </section>
 
     <!-- ========== Skills Section ========== -->
     <section id="skills">
-      <p>My skills</p>
+      <h2>Skills</h2>
     </section>
 
     <!-- ========== Resume Section ========== -->
     <section id="resume">
-      <p>My Resume</p>
+      <h2>My Resumé</h2>
     </section>
 
     <!-- ========== Portfolio Section ========== -->
     <section id="portfolio">
-      <p>My Portfolio</p>
+      <h2>My Portfolio</h2>
     </section>
 
     <!-- ========== Contact Section ========== -->
     <section id="contact">
-      <p>Contact</p>
+      <h2>Contact Me</h2>
     </section>
 
     <footer id="footer">
@@ -156,13 +196,32 @@
         <div class="social-links">
           <a href="#"><i class="fab fa-github"></i></a>
           <a href="#"><i class="fab fa-linkedin"></i></a>
+          <a href="#"><i class="fab fa-researchgate"></i></a>
+          <a href="#"><i class="ai ai-google-scholar-square"></i></a>
         </div>
       </div>
 
       <div class="copyright">
-        Copyright <strong> <span>Jose Querales</span> </strong>. All rights
+        © Copyright <strong> <span>Jose Querales</span> </strong>. All rights
         reserved.
       </div>
     </footer>
+
+    <!-- Bootstrap JavaScript libraries-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

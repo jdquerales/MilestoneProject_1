@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/* ------------------------------------- Body styles */
 body{
     margin: 0;
     font-weight: 300;
@@ -9,9 +10,12 @@ body{
     color: #272829;
 }
 
-footer {
-    display: block; 
+body h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
 }
+
 
 /* ------------------------------------- Navegation bar */
 nav {
@@ -69,18 +73,25 @@ nav li {
 }
 
 #home .social-links a{
-    font-size: 24px;
+    font-size: 18px;
     display: inline-block;
-    color: #45505b;
+    background: #ffb727;
+    color: #fff;
     line-height: 1;
-    margin-right: 20px;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
     transition: 0.3s;
-    background: #fff;
-    justify-content: center;
     margin-top: 30px;
 }
 
-/* ------------------------------------- Footer */
+/* ------------------------------------- Footer styles */
+footer {
+    display: block; 
+}
 
 #footer {
     background: #f7f8f9;
@@ -117,4 +128,23 @@ nav li {
     height: 36px;
     transition: 0.3s;
     margin-top: 30px;
+}
+
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    background: #45505b;
+    font-size: 30px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+}
+
+.bg-menu {
+     background:#f7f8f9;
 }
