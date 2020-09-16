@@ -47,7 +47,7 @@
     </button>
 
     <div id="navbarNavDropdown" class="d-lg-none bg-menu">
-      <ul class="navbar-nav mr-auto">
+      <ul id="mobile-menu-content" class="navbar-nav mr-auto">
         <li>
           <a href="#home"><span>Home</span></a>
         </li>
@@ -65,28 +65,11 @@
         </li>
       </ul>
     </div>
-    <ul class="dropdown-menu">
-      <li>
-        <a href="#home"><span>Home</span></a>
-      </li>
-      <li>
-        <a href="#about"><span>About</span></a>
-      </li>
-      <li>
-        <a href="#skills"><span>Skills</span></a>
-      </li>
-      <li>
-        <a href="#resume"><span>Resume</span></a>
-      </li>
-      <li>
-        <a href="#contact"><span>Contact</span></a>
-      </li>
-    </ul>
 
     <!--<nav class="navbar navbar-light navbar-expand-sm center_content">-->
     <nav class="navbar-menu d-none d-lg-block">
       <ul class="navbar mr-auto">
-        <li class="active nav-item mr-4">
+        <li class="active nav-item mr-4 menuitem">
           <a href="#home"
             ><span>
               <i class="fas fa-home"></i>
@@ -95,19 +78,16 @@
             ></a
           >
         </li>
-        <li class="active nav-item mr-4">
+        <li class="active nav-item mr-4 menuitem">
           <a href="#about"
             ><span>
               <i class="far fa-user"></i>
 
               About</span
-
-
-              
             ></a
           >
         </li>
-        <li class="active nav-item mr-4">
+        <li class="active nav-item mr-4 menuitem">
           <a href="#skills"
             ><span>
               <i class="fas fa-cogs"></i>
@@ -116,7 +96,7 @@
             ></a
           >
         </li>
-        <li class="active nav-item mr-4">
+        <li class="active nav-item mr-4 menuitem">
           <a href="#resume"
             ><span
               ><i class="fas fa-file"></i>
@@ -125,7 +105,7 @@
             ></a
           >
         </li>
-        <li class="active nav-item mr-4">
+        <li class="active nav-item mr-4 menuitem">
           <a href="#portfolio"
             ><span>
               <i class="fas fa-folder"></i>
@@ -134,7 +114,7 @@
             ></a
           >
         </li>
-        <li class="active nav-item mr-4">
+        <li class="active nav-item mr-4 menuitem">
           <a href="#contact"
             ><span>
               <i class="far fa-envelope"></i>
@@ -208,7 +188,64 @@
 
     <!-- ========== Contact Section ========== -->
     <section id="contact">
-      <h2>Contact Me</h2>
+      <div class="container-fluid">
+        <div class="section-title">
+          <h2>Contact me</h2>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="fas fa-map-marked-alt"></i>
+                  <h4>Location:</h4>
+                  <p>38 Popes Quay, Cork City, T23NX49 (Ireland)</p>
+                </div>
+                <div class="email">
+                  <i class="far fa-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>jquerales72@gmail.com</p>
+                </div>
+                <div class="phone">
+                  <i class="fas fa-phone-alt"></i>
+                  <h4>Phone:</h4>
+                  <p>+353 838767622</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-8">
+            
+            <form>
+                      <div class="form-group">
+
+                         <input type="text" class="form-control" name="name" placeholder="Your Name" data-rule="minlen:4" id="name" data-message="Please enter at least 4 characters">
+                         <div class="validate" style="display:block;"> Please enter at least 4 characters</div>
+                     </div>
+
+                    <div class="form-group">
+                            <input type="email" class="form-control" name="email" placeholder="Your Email" data-rule="email"  id="email" data-message="Please enter a valid email">
+                            <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+                             <div class="validate" style="display:block;"> Please enter a valid email</div>
+
+                    </div>
+
+
+                    <div class="form-group">
+                     <textarea class="form-control" name="message" placeholder="Message" rows="5" data-rule="required" data-message="Please write someting for me"></textarea>
+                     <div class="validate" style="display:block;"> Please write something for me</div>
+                     </div>
+
+
+                    <div>
+                         <button type="submit" class="btn btn-primary">Send Message</button>
+
+                         </div>
+  
+            </form>
+            </div>
+
+          </div>
+        </div>
+      </div>
     </section>
 
     <footer id="footer">
@@ -237,8 +274,8 @@
       </div>
 
       <div class="copyright">
-        © Copyright <strong> <span>Jose Querales</span> </strong>. All rights
-        reserved.
+        © 2020 Copyright <strong> <span>Jose Querales</span></strong
+        >. All rights reserved.
       </div>
     </footer>
 

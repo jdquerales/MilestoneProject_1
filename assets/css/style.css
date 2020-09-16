@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 /* ------------------------------------- Body styles */
 body {
@@ -10,6 +11,11 @@ body {
   color: #272829;
 }
 
+body h1 {
+    color: white;
+    font-family: "Satisfy", sans-serif;
+}
+
 body h2 {
   text-align: center;
   text-transform: uppercase;
@@ -18,7 +24,8 @@ body h2 {
 
 /* ------------------------------------- Navegation bar */
 nav {
-  background: #f7f8f9;
+  background: #02457A;
+  height: 75px;
 }
 
 nav ul {
@@ -33,11 +40,40 @@ nav li {
   float: left;
 }
 
+.navbar-menu {
+    position: fixed;
+    z-index: 9998;
+    display: inline-block;
+    width: 100%;
+}
+
+.menuitem a i {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    display: block;
+    font-size:  26px;
+    margin-bottom: 5px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color : #f8f8ff;
+}
+
+
 /* ------------------------------------- Home page */
 
 #home p {
   font-family: "Exo", sans-serif;
-  color: #45505b;
+  color: #f8f8ff;
   margin: 15px 0 0 0;
   font-size: 18px;
 }
@@ -85,35 +121,41 @@ nav li {
   margin-top: 30px;
 }
 
+/* ------------------------------------- Contact page styles */
+#contact {
+    background-color: #87CEEB;
+}
+
 /* ------------------------------------- Footer styles */
 footer {
   display: block;
+  height: 125px;
 }
 
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #02457A;
+  color: #f8f8ff;
   font-size: 14px;
   text-align: center;
-  padding: 30px 0;
-  font-family: "Open Sans", sans-serif;
+  padding: 10px 0;
+  font-family: "Roboto", sans-serif;
 }
 
 #footer .social-links {
-  margin: 0 0 40px 0;
+  margin-bottom: 10px;
+  margin-right: 0px;
 }
 
 .social-links {
   margin: 0 0 40px 0;
   font-size: 22px;
-  margin-right: 20px;
   text-align: center;
 }
 
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: blue;
+  background: #ffb727;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -123,7 +165,7 @@ footer {
   width: 36px;
   height: 36px;
   transition: 0.3s;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 .mobile-nav-toggle {
@@ -132,7 +174,7 @@ footer {
   top: 15px;
   z-index: 9998;
   border: 0;
-  background: #45505b;
+  background: none;
   font-size: 30px;
   transition: all 0.4s;
   outline: none !important;
@@ -145,3 +187,30 @@ footer {
   background: #f7f8f9;
 }
 
+#mobile-menu-content {
+    position: fixed;
+    right: 0;
+    top: 0%;
+    width: 8em;
+    margin-top: 0em;
+    z-index: 1;
+    color: white;
+    font-size: 24px;
+}
+
+
+#navbarNavDropdown a { 
+    color: #ffb727;
+}
+
+footer h3 {
+    font-size: 20px;
+    margin-bottom: 0px;
+    font-family: "Roboto", sans-serif;
+}
+
+.copyright{
+    font-size: 15px;
+    margin-bottom: 0px;
+    font-family: "Roboto", sans-serif;
+}
