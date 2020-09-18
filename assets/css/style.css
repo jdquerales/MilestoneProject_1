@@ -91,6 +91,11 @@ nav li {
   /*-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;*/
+    
+  /*add animation to the background image */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
 .d-flex {
@@ -119,6 +124,49 @@ nav li {
   height: 36px;
   transition: 0.3s;
   margin-top: 30px;
+}
+
+/* ------------------------------------- About page styles */
+#about {
+    background-color: #4682B4;
+}
+
+/* ------------------------------------- Skills page styles */
+#skills {
+    background-color: #1E90FF;
+}
+
+.progress {
+    position: relative;
+    height: 15px;
+    margin-bottom: 20px;
+}
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+.skill {
+    padding: 10px 0;
+    margin: 0 0 0px 0;
+    display: block;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+.percent {
+    float: right;
+    font-style: normal;
+}
+
+/* ------------------------------------- Resume page styles */
+#resume {
+    background-color: #B0E0E6;
+}
+
+/* ------------------------------------- Portfolio page styles */
+#portfolio {
+    background-color: #B0C4DE;
 }
 
 /* ------------------------------------- Contact page styles */
@@ -214,3 +262,30 @@ footer h3 {
     margin-bottom: 0px;
     font-family: "Roboto", sans-serif;
 }
+
+.center-button{
+text-align: center!important;
+}
+
+.validate {
+    color: red;
+    margin: 0 0 15px 0;
+    font-weight: 400px;
+    font-size: 13px;
+}
+
+@keyframes hero-zoom{
+  from{
+    transform: scale(1);
+  }
+  to{
+    transform: scale(1.01);
+  }
+}
+
+.section-title {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
