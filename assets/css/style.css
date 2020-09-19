@@ -22,6 +22,10 @@ body h2 {
   font-size: 18px;
 }
 
+.list-item {
+    margin: 15px 15px 15px 15px;
+}
+
 /* ------------------------------------- Navegation bar */
 nav {
   background: #02457A;
@@ -74,7 +78,7 @@ nav li {
 #home p {
   font-family: "Exo", sans-serif;
   color: #f8f8ff;
-  margin: 15px 0 0 0;
+  margin: 0px 0px 0px 0px;
   font-size: 18px;
 }
 
@@ -108,6 +112,15 @@ nav li {
 
 .justify-content-center {
   justify-content: center !important;
+  margin: 0px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
 }
 
 #home .social-links a {
@@ -129,11 +142,23 @@ nav li {
 /* ------------------------------------- About page styles */
 #about {
     background-color: #4682B4;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    padding: 0px;
+    overflow: hidden;
 }
+
 
 /* ------------------------------------- Skills page styles */
 #skills {
     background-color: #1E90FF;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    padding: 0px;
+    overflow: hidden;
 }
 
 .progress {
@@ -150,8 +175,8 @@ nav li {
     padding: 10px 0;
     margin: 0 0 0px 0;
     display: block;
-text-transform: uppercase;
-font-weight: 600;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 .percent {
@@ -162,16 +187,31 @@ font-weight: 600;
 /* ------------------------------------- Resume page styles */
 #resume {
     background-color: #B0E0E6;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    padding: 0px;
+    overflow: hidden;
 }
 
 /* ------------------------------------- Portfolio page styles */
 #portfolio {
     background-color: #B0C4DE;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    padding: 0px;
+    overflow: hidden;
 }
 
 /* ------------------------------------- Contact page styles */
 #contact {
     background-color: #87CEEB;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-size: cover;
+    padding: 0px;
+    overflow: hidden;
 }
 
 /* ------------------------------------- Footer styles */
@@ -285,7 +325,9 @@ text-align: center!important;
 
 .section-title {
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 
