@@ -19,7 +19,7 @@ body h1 {
 body h2 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 30px;
 }
 
 .list-item {
@@ -28,7 +28,10 @@ body h2 {
 
 /* ------------------------------------- Navegation bar */
 nav {
-  background: #02457A;
+  /*background: none;*/
+  /*background: #02457A;*/
+  background:rgba(0, 0, 255, 0.3);
+  /*opacity: 0.5;*/
   height: 75px;
 }
 
@@ -51,12 +54,16 @@ nav li {
     width: 100%;
 }
 
+.menuitem a  {
+    text-decoration: none;
+}
+
 .menuitem a i {
     margin-top: 0px;
     padding-top: 0px;
     padding-bottom: 5px;
     display: block;
-    font-size:  26px;
+    font-size:  20px;
     margin-bottom: 5px;
 }
 
@@ -66,12 +73,16 @@ nav li {
     padding-top: 5px;
     text-align: center;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 300;
     letter-spacing: 2px;
     color : #f8f8ff;
 }
 
+.sections h3 {
+font-size: 22px;
+text-align: center;
+}
 
 /* ------------------------------------- Home page */
 
@@ -121,6 +132,7 @@ nav li {
     margin-right: 15px;
     margin-left: 15px;
     margin-bottom: 15px;
+    justify-content: center;
 }
 
 #home .social-links a {
