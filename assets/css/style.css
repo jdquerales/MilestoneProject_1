@@ -256,6 +256,23 @@ ul.timeline > li::before {
 }
 
 
+#resume h4 {
+    line-height: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+#resume h5 {
+    font-size: 16px;
+    background: #eef0f2;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
 /* ------------------------------------- Portfolio page styles */
 #portfolio {
     background-color: #B0C4DE;
