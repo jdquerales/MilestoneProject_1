@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 /* ------------------------------------- Body styles */
@@ -20,7 +21,9 @@ body {
   font-weight: 300;
   line-height: 1.5;
   background-color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Reboto", sans-serif;
+  /*font-family: "Dancing Script", cursive;*/
+  font-weight: 500;
   color: #272829;
 }
 
@@ -97,17 +100,43 @@ font-size: 22px;
 text-align: center;
 }
 
+
+.btn-main-sections {
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 23px;
+    width: 160px;
+    background-color: #f05f40;
+    border-color: #f05f40;
+   
+}
+
+.btn-main-sections:hover,
+.btn-main-sections:active,
+.btn-main-sections:focus,
+.btn-main-sections:active:focus:visited {
+    background-color: #d3b3ac;
+    border-color: #d3b3ac;
+}
+
+ 
+.lead {
+    text-align: center;
+    font-size: 14px;
+} 
+
 /* ------------------------------------- Home page */
 
 #home p {
-  font-family: "Exo", sans-serif;
+  font-family: "Reboto", sans-serif;
+  font-weight: 500;
   color: #f8f8ff;
   margin: 0px 0px 0px 0px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 #home {
-  width: 100%;
   height: 100vh;
   position: relative;
   text-align: center;
@@ -116,10 +145,10 @@ text-align: center;
   background-position: center center;
   /*background-attachment: fixed;*/
   background-size: cover;
-  /*-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;*/
-    
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
   /*add animation to the background image */
   animation-name: hero-zoom;
   animation-duration: 5s;
@@ -135,6 +164,8 @@ text-align: center;
 }
 
 .justify-content-center {
+  /*display: flex;*/
+  align-items: center;
   justify-content: center !important;
   margin: 0px;
 }
@@ -162,6 +193,11 @@ text-align: center;
   height: 36px;
   transition: 0.3s;
   margin-top: 30px;
+}
+
+#home .social-links a:hover {
+    background-color: #d3b3ac;
+    border-color: #d3b3ac;
 }
 
 /* ------------------------------------- About page styles */
@@ -198,7 +234,7 @@ text-align: center;
 
 .skill {
     padding: 10px 0;
-    margin: 0 0 0px 0;
+    margin-top: 0 0 0px 0;
     display: block;
     text-transform: uppercase;
     font-weight: 600;
@@ -285,6 +321,7 @@ ul.timeline > li::before {
 
 .portfolio-section {
     text-align: center;
+
 }
 
 
@@ -299,6 +336,10 @@ ul.timeline > li::before {
     overflow: hidden;
 }
 
+
+.sections-container {
+    margin-top: 35px;
+}
 /* ------------------------------------- Footer styles */
 footer {
   display: block;
@@ -340,6 +381,12 @@ footer {
   transition: 0.3s;
   margin-top: 10px;
 }
+
+#footer .social-links a:hover {
+    background-color: #d3b3ac;
+    border-color: #d3b3ac;
+}
+
 
 .mobile-nav-toggle {
   position: fixed;
@@ -411,7 +458,7 @@ text-align: center!important;
 .section-title {
     text-align: center;
     padding-bottom: 0px;
-    margin-top: 20px;
+    margin-top: 80px;
     margin-bottom: 20px;
 }
 
