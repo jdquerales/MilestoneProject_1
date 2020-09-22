@@ -350,11 +350,18 @@ footer {
   text-align: center;
   padding: 10px 0;
   font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  height:auto;
 }
 
 #footer .social-links {
   margin-bottom: 10px;
   margin-right: 0px;
+}
+
+
+.inline-block {
+    display: inline-block;
 }
 
 .social-links {
@@ -421,7 +428,13 @@ footer {
 footer h3 {
   font-size: 20px;
   margin-bottom: 0px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Satisfy", sans-serif;
+}
+}
+
+.container-flex {
+display:flex;
+justify-content: center;
 }
 
 .copyright {
