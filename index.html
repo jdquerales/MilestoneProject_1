@@ -40,46 +40,59 @@
 
   <body>
     <!-- mobile navigation bar -->
-    <button
-      class="mobile-nav-toggle mr-auto d-lg-none"
+
+<nav class="navbar  navbar-trans fixed-top d-lg-none">
+
+<div class="container d-lg-none">
+
+<button
+      class="navbar-toggler d-lg-none"
       type="button"
       data-toggle="collapse"
-      data-target="#navbarNavDropdown"
-      aria-controls="navbarNavDropdown"
-      aria-expanded="false"
+      data-target="#navbarNavContent"
+      aria-controls="navbarNavContent"
+      aria-expanded="true"
       aria-label="Toggle_navigation"
     >
-      <span> <i class="fas fa-bars"></i> </span>
+      <span class="nav-icon"> <i class="fas fa-bars"></i> </span>
     </button>
 
-    <div id="navbarNavDropdown" class="d-lg-none bg-menu">
-      <ul id="mobile-menu-content" class="navbar-nav mr-auto">
-        <li>
+   <div class="collapse rounded navbar-mobile-bg justify-content-end  navbar-collapse show" id="navbarNavContent">
+    <ul class="navbar-nav ml-auto float-left text-left-uppercase">
+        <li class="nav-item active">
           <a href="#home"><span>Home</span></a>
         </li>
-        <li>
+        <li class="nav-item">
           <a href="#about"><span>About</span></a>
         </li>
-        <li>
+        <li class="nav-item">
           <a href="#skills"><span>Skills</span></a>
         </li>
-        <li>
+        <li class="nav-item">
           <a href="#resume"><span>Resume</span></a>
         </li>
-        <li>
+        <li class="nav-item">
           <a href="#portfolio"><span>Portfolio</span></a>
         </li>
-        <li>
+        <li class="nav-item">
           <a href="#contact"><span>Contact</span></a>
         </li>
-      </ul>
-    </div>
+      </ul> 
+
+</div>
+
+
+
+</div>
+
+
+</nav>
 
     <!-- end mobile navigation bar -->
 
     <!-- desktop navigation bar -->
 
-    <nav class="navbar-menu d-none d-lg-block">
+    <nav class="navbar-desktop navbar-menu d-none d-lg-block">
       <ul class="navbar mr-auto">
         <li class="active nav-item mr-4 menuitem">
           <a href="#home"
@@ -527,7 +540,7 @@
 
       </div>
 
-    </div>
+    
     </section>
 
     <!-- ========== Contact Section ========== -->
@@ -540,17 +553,17 @@
               <div class="info">
                 <div class="address">
                   <i class="fas fa-map-marked-alt"></i>
-                  <h4 sections-titles>Location:</h4>
+                  <h4 class="sections-titles">Location:</h4>
                   <p>38 Popes Quay, Cork City, T23NX49 (Ireland)</p>
                 </div>
                 <div class="email">
                   <i class="far fa-envelope"></i>
-                  <h4 sections-titles>Email:</h4>
+                  <h4 class="sections-titles">Email:</h4>
                   <p>jquerales72@gmail.com</p>
                 </div>
                 <div class="phone">
                   <i class="fas fa-phone-alt"></i>
-                  <h4 sections-titles>Phone:</h4>
+                  <h4 class="sections-titles">Phone:</h4>
                   <p>+353 838767622</p>
                 </div>
               </div>
@@ -619,13 +632,13 @@
 
     <footer id="footer">
       <div class="container-fluid social-flex">
-         <h3 sections-titles>José Querales</h3>
+         <h3 class="sections-titles">José Querales</h3>
 
         <div class="row sections-container">
         
-        <div class="col-lg-4">
+        <div class="col-lg-4 social-links">
         
-            <h3> About Me </h3>
+            <h3 class="footer-titles"> About Me </h3>
         <p class="inline-block">
         Experienced researcher in computational modelling of novel materials of interest for technological applications. Junior Software Developer. Strong analytical and computational skills. Committed team-player, flexible and reliable with excellent communication skills.
          </p>
@@ -634,7 +647,7 @@
         
         <div class="col-lg-4 social-links">
          
-         <h3> Follow Me! </h3>
+         <h3 class="footer-titles"> Follow Me! </h3>
          
           <a href="https://github.com/jdquerales" target="_blank"
             ><i class="fab fa-github"></i
@@ -659,9 +672,9 @@
 
         </div>
 
-        <div class="col-lg-4">
+        <div class="col-lg-4 social-links">
         
-        <h3> Download CV </h3>
+        <h3 class="footer-titles"> Download CV </h3>
          
          <p class="inline-block">
 					Need a printable version of my CV? Download it here.
@@ -692,9 +705,10 @@
 
 
       <div class="copyright">
-        © 2020 Copyright <strong> <span>Jose Querales</span></strong
+        © 2020 Copyright <strong> <span>José Querales</span></strong
         >. All rights reserved.
       </div>
+    </div>
     </footer>
 
     <!-- Bootstrap JavaScript libraries-->
