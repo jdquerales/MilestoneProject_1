@@ -367,9 +367,15 @@ ul.timeline > li::before {
   overflow: hidden;
 }
 
+#contact span,p {
+    text-align: center;
+}
+
 .sections-container {
   margin-top: 35px;
 }
+
+
 /* ------------------------------------- Footer styles */
 footer {
   display: block;
