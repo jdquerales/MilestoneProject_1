@@ -3,6 +3,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
 
 /* ------------------------------------- Body styles */
+
+.titles {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -13,6 +21,7 @@
   margin-top: 20px;
   margin-bottom: 20px;
   color: #45505b;
+  text-align: center;  
 }
 
 body {
@@ -224,6 +233,10 @@ nav li {
 
 .center-content {
     text-align: center;
+}
+
+#about p {
+    text-align: justify;
 }
 
 
@@ -547,6 +560,10 @@ footer h3 {
   font-family: "Satisfy", sans-serif;
 }
 
+.footer-title {
+   color: #f8f8ff;
+   font-size: 35px
+}
 
 .container-flex {
 display:flex;
