@@ -205,7 +205,7 @@ nav li {
 
 /* ------------------------------------- About page styles */
 #about {
-  background-color: #4682b4;
+  background-color: #DCE4EC;
   display: block;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -213,6 +213,19 @@ nav li {
   padding: 0px;
   overflow: hidden;
 }
+
+.crop-img{
+  width:300px;
+  height:300px;
+  object-fit:cover;
+  border-radius:50%;
+  filter: brightness(90%);
+}
+
+.center-content {
+    text-align: center;
+}
+
 
 /* ------------------------------------- Skills page styles */
 #skills {
