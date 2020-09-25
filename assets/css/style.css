@@ -332,6 +332,7 @@ ul.timeline > li::before {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 10px;
+  text-align: left;
 }
 
 #resume h5 {
@@ -341,6 +342,11 @@ ul.timeline > li::before {
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
+  text-align: left;
+}
+
+#resume p {
+    text-align: left;
 }
 
 /* ------------------------------------- Portfolio page styles */
@@ -355,6 +361,14 @@ ul.timeline > li::before {
 
 .portfolio-section {
   text-align: center;
+}
+
+.par-port{
+    font-size: 16px;
+    font-family: "Reboto", sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    font-weight: 400;
 }
 
 /* ------------------------------------- Contact page styles */
