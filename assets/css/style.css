@@ -11,6 +11,13 @@
     text-align: center;
 }
 
+.horizontal-line {
+    width: 40px;
+    height: 5px;
+    background-color: #f05f40;
+    margin: 0 auto;
+}
+
 * {
   box-sizing: border-box;
 }
