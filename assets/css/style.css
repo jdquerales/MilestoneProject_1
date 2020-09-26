@@ -221,7 +221,7 @@ nav li {
 
 /* ------------------------------------- About page styles */
 #about {
-  background-color: #DCE4EC;
+  background-color: #ececec;
   display: block;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -249,7 +249,7 @@ nav li {
 
 /* ------------------------------------- Skills page styles */
 #skills {
-  background-color: #1e90ff;
+  background-color: #ececec;
   margin-top: 0px;
   margin-bottom: 0px;
   background-size: cover;
@@ -282,7 +282,7 @@ nav li {
 
 /* ------------------------------------- Resume page styles */
 #resume {
-  background-color: #b0e0e6;
+  background-color: #ececec;
   margin-top: 0px;
   margin-bottom: 0px;
   background-size: cover;
@@ -351,7 +351,7 @@ ul.timeline > li::before {
 
 /* ------------------------------------- Portfolio page styles */
 #portfolio {
-  background-color: #b0c4de;
+  background-color: #ececec;
   margin-top: 0px;
   margin-bottom: 0px;
   background-size: cover;
@@ -373,7 +373,7 @@ ul.timeline > li::before {
 
 /* ------------------------------------- Contact page styles */
 #contact {
-  background-color: #87ceeb;
+  background-color:#ececec;
   margin-top: 0px;
   margin-bottom: 0px;
   background-size: cover;
