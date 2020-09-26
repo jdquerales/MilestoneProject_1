@@ -261,6 +261,7 @@ nav li {
   position: relative;
   height: 15px;
   margin-bottom: 20px;
+  background-color: #d0d0d0;
 }
 
 .progress-section {
