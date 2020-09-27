@@ -338,8 +338,9 @@ ul.timeline > li::before {
 
 #resume h5 {
   font-size: 16px;
-  background: #eef0f2;
+  background: #778899;
   padding: 5px 15px;
+  color: #f8f8ff;
   display: inline-block;
   font-weight: 600;
   margin-bottom: 10px;
