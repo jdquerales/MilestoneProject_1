@@ -627,6 +627,11 @@ justify-content: center;
   font-size: 13px;
 }
 
+#contact a {
+    color: #f8f8ff;
+    text-decoration: none;
+}
+
 @keyframes hero-zoom {
   from {
     transform: scale(1);
