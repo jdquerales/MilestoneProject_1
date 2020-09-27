@@ -593,7 +593,7 @@ I have strong communications skills, having given several invited/contributed ta
                 <span class="sections-titles">
                   <i class="fas fa-map-marked-alt"></i> Location:
                   </span>
-                <p>38 Popes Quay, Cork City, Ireland</p>
+                <p>Cork City, Ireland</p>
       
      </div>
 
@@ -617,69 +617,74 @@ I have strong communications skills, having given several invited/contributed ta
      
 
      <div class="col-lg-8">
-      <form>
-                <div class="form-group">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="name"
-                    placeholder="Your Name"
-                    data-rule="minlen:4"
-                    id="name"
-                    data-message="Please enter at least 4 characters"
-                  />
-                  <div class="validate" style="display: block;">
-                    Please enter at least 4 characters
-                  </div>
-                </div>
 
-                <div class="form-group">
-                  <input
-                    type="email"
-                    class="form-control"
-                    name="email"
-                    placeholder="Your Email"
-                    data-rule="email"
-                    id="email"
-                    data-message="Please enter a valid email"
-                  />
-                  <small id="emailHelp" class="form-text text-muted"
-                    >I'll never share your email with anyone else.</small
-                  >
-                  <div class="validate" style="display: block;">
-                    Please enter a valid email
-                  </div>
-                </div>
 
-                <div class="form-group">
-                  <textarea
+     <form action="validation.html" method="post" target="_blank" class="needs-validation" novalidate>
+     
+     <div class="form-group">
+    
+      <label for="validationCustom01">First name</label>
+      <input type="text" class="form-control" id="validationCustom01" placeholder="" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    
+
+    </div>
+
+    <div class="form-group">
+    
+      <label for="validationCustom02">Last name</label>
+      <input type="text" class="form-control" id="validationCustom02" placeholder="" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    
+
+    </div>
+
+    <div class="form-group">
+   
+      <label for="validationCustom03">E-mail</label>
+      <input type="email" class="form-control" id="validationCustom03" placeholder=" " value=" " required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    
+
+    </div>
+
+
+
+    <div class="form-group">
+       <textarea
                     class="form-control"
                     name="message"
-                    placeholder="Message"
+                    placeholder="Please write someting for me"
                     rows="5"
-                    data-rule="required"
-                    data-message="Please write someting for me"
+                    required
                   ></textarea>
-                  <div class="validate" style="display: block;">
-                    Please write something for me
-                  </div>
-                </div>
 
-                <div class="center-button">
-                  <button type="submit" class="btn btn-primary btn-main-sections">
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+    
+
+    </div>
+     
+     <div class="center-button">
+     <button type="submit" class="btn btn-primary btn-main-sections">
                     Send Message
                   </button>
-                </div>
-              </form>
+     </div>
+
+     </form>
 
      </div>
 
-    </div>
+     </div>
 
-    </div>
-
-
-
+     </div>
 
     </section>
 
@@ -780,6 +785,28 @@ I have strong communications skills, having given several invited/contributed ta
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+
+
+    <script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
 
   </body>
 </html>
