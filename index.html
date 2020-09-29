@@ -40,7 +40,7 @@
   <body>
     <!-- mobile navigation bar -->
 
-    <nav class="navbar navbar-trans fixed-top d-lg-none">
+    <nav class="navbar navbar-trans fixed-top d-lg-none navbar-expand-sm">
       <div class="container d-lg-none">
         <button
           class="navbar-toggler d-lg-none"
@@ -55,7 +55,7 @@
         </button>
 
         <div
-          class="collapse rounded navbar-mobile-bg navbar-collapse show"
+          class="collapse rounded navbar-mobile-bg navbar-collapse"
           id="navbarNavContent"
         >
           <ul class="navbar-nav ml-auto float-left text-left-uppercase">
@@ -79,7 +79,7 @@
             </li>
           </ul>
         </div>
-      </div>
+       </div>
     </nav>
 
     <!-- end mobile navigation bar -->
@@ -743,7 +743,7 @@
 
               <div class="center-button">
                 <button type="submit" class="btn btn-primary btn-main-sections">
-                  <a>Send Message</a>
+                  Send Message
                 </button>
               </div>
             </form>
@@ -840,7 +840,35 @@
       crossorigin="anonymous"
     ></script>
 
+    
+
+    <!--  Scroll reveal animations -->
     <script>
+       window.sr = ScrollReveal();
+       sr.reveal('.navbar-desktop', {
+           duration: 5000,
+           origin: 'bottom'
+       });
+       sr.reveal('.row', {
+           duration: 3000,
+           origin: 'left',
+           distance: '50px'
+       });
+
+    sr.reveal('.sections', {
+           duration: 3000,
+           origin: 'left'
+       });
+    
+    sr.reveal('.scrollfooter',{
+           duration: 3000,
+           origin: 'left'
+       });
+    </script>
+
+
+
+   <script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
       (function () {
         "use strict";
@@ -870,30 +898,6 @@
         );
       })();
     </script>
-
-    <!--  Scroll reveal animations -->
-    <script>
-       window.sr = ScrollReveal();
-       sr.reveal('.navbar-desktop',{
-           duration: 3000,
-           origin: 'bottom'
-       });
-       sr.reveal('.row',{
-           duration: 3000,
-           origin: 'right'
-       });
-
-    sr.reveal('.sections',{
-           duration: 3000,
-           origin: 'left'
-       });
-    
-    sr.reveal('.scrollfooter',{
-           duration: 3000,
-           origin: 'left'
-       })
-    </script>
-
 
   </body>
 
