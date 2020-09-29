@@ -34,6 +34,7 @@
 
     <!-- scroll-reveal link -->
     <script src="https://unpkg.com/scrollreveal"></script>
+
   </head>
 
   <body>
@@ -302,7 +303,7 @@
     </section>
 
     <!-- ========== Skills Section ========== -->
-    <section id="skills">
+    <section id="skills" class="sections">
       <div class="container-fluid justify-content-center">
         <div class="section-title">
           <h2 class="titles">My Tech Skills</h2>
@@ -442,7 +443,7 @@
     </section>
 
     <!-- ========== Resume Section ========== -->
-    <section id="resume">
+    <section id="resume" class="sections">
       <div class="container-fluid justify-content-center">
         <div class="section-title">
           <h2 class="titles">My Resumé</h2>
@@ -544,7 +545,7 @@
     </section>
 
     <!-- ========== Portfolio Section ========== -->
-    <section id="portfolio">
+    <section id="portfolio" class="sections">
       <div class="container-fluid">
         <div class="section-title">
           <h2 class="titles">My Portfolio</h2>
@@ -643,7 +644,7 @@
     </section>
 
     <!-- ========== Contact Section ========== -->
-    <section id="contact">
+    <section id="contact" class="sections">
       <div class="container-fluid">
         <div class="section-title">
           <h2 class="titles">Contact me</h2>
@@ -751,7 +752,7 @@
       </div>
     </section>
 
-    <footer id="footer">
+    <footer id="footer" class="scrollfooter">
       <div class="container-fluid social-flex">
         <h3 class="sections-titles footer-title">José Querales</h3>
 
@@ -869,5 +870,33 @@
         );
       })();
     </script>
+
+    <!--  Scroll reveal animations -->
+    <script>
+       window.sr = ScrollReveal();
+       sr.reveal('.navbar-desktop',{
+           duration: 3000,
+           origin: 'bottom'
+       });
+       sr.reveal('.row',{
+           duration: 3000,
+           origin: 'right'
+       });
+
+    sr.reveal('.sections',{
+           duration: 3000,
+           origin: 'left'
+       });
+    
+    sr.reveal('.scrollfooter',{
+           duration: 3000,
+           origin: 'left'
+       })
+    </script>
+
+
   </body>
+
+  
+
 </html>
