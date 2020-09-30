@@ -23,6 +23,35 @@ In particular, as part of this section we recommend that you provide a list of U
 
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
+
+### As a recruiter:
+
+-  I want to view the developer’s educational background, so that I can determine 
+   the suitability of the candidate for the position.
+
+-  I want to be able to learn about the developer technical skills, so that I can assess whether they can fit 
+   within the position requirements.
+
+-  I want to see the developer’s projects portfolio, so that I can assess his hands-on experience.
+
+-  I want to be able to contact the developer, so that I can schedule meeting and/or interview.
+
+
+### As a potential collaborator:
+
+-  I want to view the developer’s educational background, so that I can assess his field of expertise and education level.
+
+-  I want to have access to the researcher’s full list of publications, so that I can assess his track record and leadership in the his field of research. 
+
+-  I want to learn about the researcher’s scientific interest and current field of research, so that I can consider him as a potential collaborations in areas of common interest.
+
+-  I want to learn about the researcher’s computational skills, so that I can assure the feasibility of the methods to be employed in our research.
+
+
+### As a recruiter or potential collaborator, I want to be able to download a full curriculum vitae of the developer/researcher, so that I can see more details on his achievements and career progression.
+
+
+
 ## Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
