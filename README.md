@@ -1,6 +1,6 @@
 # Jose's Resumé
 
-## Code Institute Milestone Project 1: User-Centric Frontend Development
+## Stream One Project: User-Centric Frontend Development - Code Institute
 
 This project is part of my journey as a Software Developer in Code Institute. Here, you will find
 a clear and organized resumé of myself. I have included my work and education history, including
@@ -9,35 +9,42 @@ and software development. You will also find link to public social networks prof
 and my development projects available on GitHub. You will be able to download two different versions of my Resumé:
 a full academic curriculum and a summarised one highlighting my background, experience and skills.
 
-A live website: [Jose's Resumé](https://jdquerales.github.io/MilestoneProject_1/)
+## Demo
+
+A live demo can be found [here](https://jdquerales.github.io/MilestoneProject_1/).
 
 ![responsive mockups](/assets/images/responsive_screenshot.png)
 
 
 ## UX
  
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### User stories:
 
 
-### As a recruiter:
+#### As a recruiter:
+
 
 -  I want to view the developer’s educational background, so that I can determine 
    the suitability of the candidate for the position.
 
+![education_background](/assets/images/education_background.png)
+
 -  I want to be able to learn about the developer technical skills, so that I can assess whether they can fit 
    within the position requirements.
 
+![skills](/assets/images/skills.png)
+
+
 -  I want to see the developer’s projects portfolio, so that I can assess his hands-on experience.
+
+![portfolio](/assets/images/portfolio.png)
+
 
 -  I want to be able to contact the developer, so that I can schedule meeting and/or interview.
 
+![portfolio](/assets/images/contact.png)
 
-### As a potential collaborator:
+#### As a potential collaborator:
 
 -  I want to view the developer’s educational background, so that I can assess his field of expertise and education level.
 
@@ -45,11 +52,35 @@ This section is also where you would share links to any wireframes, mockups, dia
 
 -  I want to learn about the researcher’s scientific interest and current field of research, so that I can consider him as a potential collaborations in areas of common interest.
 
+![about](/assets/images/about.png)
+
 -  I want to learn about the researcher’s computational skills, so that I can assure the feasibility of the methods to be employed in our research.
 
 
-### As a recruiter or potential collaborator, I want to be able to download a full curriculum vitae of the developer/researcher, so that I can see more details on his achievements and career progression.
+#### As a recruiter or potential collaborator, I want to be able to download a full curriculum vitae of the developer/researcher, so that I can see more details on his achievements and career progression.
 
+![CV1](/assets/images/CV1.png)
+
+![CV2](/assets/images/CV2.png)
+
+
+
+### Strategy:
+
+
+### Scope:
+
+
+
+### Structure:
+
+
+
+### Skeleton:
+
+
+
+### Surface:
 
 
 ## Features
