@@ -100,12 +100,33 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
-
-
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    - The project uses **HTML** as building block.
+- [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
+    - The project uses **Cascading Style Sheets (CSS)** for adding style to the website.
+- [Bootstrap (4.5.2)](https://getbootstrap.com/)
+    - The project uses **Bootstrap** to design and customize responsive mobile-first sites.
+- [ScrollReveal](https://scrollrevealjs.org/)
+    - The project uses **ScrollReveal** to animate elements as they scroll into view.
+- [Balsamiq](https://balsamiq.com/wireframes/)
+    - The project uses **Balsamiq** as wireframing tool.
+- [Chrome DevTools](https://developers.google.com/web/tools/chrome-devtools/)
+    - I use **Chrome DevTools** to inspect and test styling and responsive desing during my development process.
+- [W3C](https://validator.w3.org)
+    - I use **W3C** to check the HTML and CSS files.
+- [AmIResponsive](http://ami.responsivedesign.is)
+    - I use **Am I Responsive?** to check my responsive design and take screenshots of the deployed website.
+- [Fontawesome](https://fontawesome.com)
+    - This project uses **FontAwesome** for including vector icons and social logos.
+- [GoogleFonts](https://fonts.google.com)
+    - This project uses **GoogleFonts** to import the font styles.
+- [GitHub](https://github.com)
+    - I used **GitHub** as my project repository.
+- [GitHub Pages](https://pages.github.com)
+    - I used **GitHub Pages** to deploy my project.
+- [GitPod](https://www.gitpod.io)
+    - I used **GitPod** as the cloud-based development environment to write my code.
+ 
 ## Testing
 
 In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
