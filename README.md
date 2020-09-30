@@ -78,7 +78,21 @@ A live demo can be found [here](https://jdquerales.github.io/MilestoneProject_1/
 
 ### Skeleton:
 
+I used Balsamiq to create my initial wireframes, starting with the Desktop design as an overall idea and helping me to make the design responsive afterwards.
 
+[Home wireframe](/assets/wireframes/Home.png)
+
+[About wireframe](/assets/wireframes/About.png)
+
+[Education History wireframe](/assets/wireframes/Education.png)
+
+[Skills wireframe](/assets/wireframes/Skills.png)
+
+[Work Experience wireframe](/assets/wireframes/Work_Experience.png)
+
+[Portfolio wireframe](/assets/wireframes/Portfolio.png)
+
+[Contact form wireframe](/assets/wireframes/Home.png)
 
 ### Surface:
 
