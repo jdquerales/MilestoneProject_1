@@ -161,19 +161,19 @@ picture.
 
 
 ## Features
-
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
  
 ### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- Feature 1 - This site uses the **ScrollReveal** feature
+  added to create an "scrolling" effect.
+- Feature 2 - The navegation bar collapses for mobile screen sizes to
+  promote a minimalist design
+- Feature 3 - This site uses a valid feedback for the contact form feature in Bootstrap with 
+  an extra JavaScript function added to improve the user experience.
+- Feature 4 - This site uses a smooth zoom-in effect for the home page background.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 ### Features Left to Implement
-- Another feature idea
+- I will include more animations in the portfolio section using JavaScript.
 
 ## Technologies Used
 
@@ -298,6 +298,16 @@ Other user stories are related to the above described. **Everything working fine
    2. Scroll down the entire website.
    3. Verify that every section is appearing as we scroll through them.
    4. **Everything working fine**. 
+
+### Testing hoover effects
+
+1. Hoovering  effects:
+   1. Refresh the page.
+   2. Hoover on navegation bar.
+   3. Hoover on buttons and icons in Home page.
+   4. Hoover on buttons in Portfolio page.
+   5. Hoover on icons in Footer.
+   6. **Everything working fine**.
 
 
 ## Deployment
