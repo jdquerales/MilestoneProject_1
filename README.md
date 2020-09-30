@@ -67,13 +67,67 @@ A live demo can be found [here](https://jdquerales.github.io/MilestoneProject_1/
 
 ### Strategy:
 
+The goal of this project is to get noticed among potential recruiters and scientific collaborators. 
+In the design of this project, my main goal was to make it attractive by highlighting main aspects
+in the different sections and adding link to external sources. 
+
 
 ### Scope:
 
+## Stage 1 (current release)
+
+As the initial stage of this project:
+
+- I wanted to include the most important pieces of my resumé:
+About Me, Education Background, Work Experience, Portfolio (including different pilars of my professional profile,
+ i.e. data analytics, software development and scientific research), Summary of my Tech Skills.
+
+- I also wanted to have a responsive design including mobile, tablet and desktop screen sizes.
+
+- I wanted to include just a bit of animation by using JavaScript capabilities provided by Bootstrap, in particular
+for the field validation in the contact form.
+
+- I wanted to include a scroll animation by using **ScrollReveal** library.
+
+- I wanted to improve the user experience by adding a link to another page (with a short message) when clicking "Send Message" button.
+
+## Stage 2 (Future release)
+
+As future capabilities:
+
+- I would like to include more interactive features to the website by using JavaScript.
+In particular, it will have and interactive showcase of my projects in the Portfolio Section, Send messages fully operational
+and live chat option.
+
+- Update projects.
 
 
 ### Structure:
 
+As it can be noticed in the initial wireframes, I was initially considering to organise my website in different pages. However, 
+in order to make the user experience more comfortable I decided to organise my website in a single page with different separated 
+sections.
+
+- Home Section: I have included a horizontal navegation bar fixed to the top (for desktop screen size), which collapses to
+  one icon for mobile screen size. I have included my own background picture (taken in Bariloche - Patagonia, Argentina in 2014)
+  providing a beautiful eye-catching initial impression of the website. I present myself, with call outs buttons for downloading CV and
+  contacting me. Social media links are also included.
+
+- The following sections are organized in a logical way as typical resumes are presented.
+
+- About Me Section: Including personal picture, with personal details and a summary of background and main interests.
+
+- My Tech Skills Section: Including a progress bar of my main Tech Skills (the percentages included are quite representative
+  of my experience).
+
+- My Resumé Section: Including a descending chronological showcase of my university degrees and professional experience.  
+
+- My Portfolio Section: Divided in three main subsections, i.e. Data Science, Software Development and Research, with link to external
+  websites.
+
+- Contact Me Section: Including contact information and a contact form.  
+
+- Footer: Divided in three columns, i.e. brief summary of my profile, social links and download CV options. 
 
 
 ### Skeleton:
