@@ -226,14 +226,17 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This site is hosted using GitHub pages, deployed directly from the master branch.
+I first created a new repository on my GitHub account, and then I linked my repository the my GitPod 
+environment, where I edited all files before every commit.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+I used the GitPod terminal in order to add files, commit and push using Git version control.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The deployed site will update automatically upon new commits to the master branch.
+
+To run locally, you can clone this repository directly into the editor of your choice by pasting
+`git clone https://github.com/jdquerales/MilestoneProject_1.git` into your terminal
+into your terminal. To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
 
 ## Credits
