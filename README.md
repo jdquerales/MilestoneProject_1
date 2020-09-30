@@ -150,6 +150,15 @@ I used Balsamiq to create my initial wireframes, starting with the Desktop desig
 
 ### Surface:
 
+- The CSS Family Blue Color Scheme was chosen for backgrounds, in order to make compatible with color in Home page background
+picture.
+
+- The CSS Family Orange Color Scheme was chosen for progress bars, social links and hoover effects on the desktop navegation bar.
+
+- The CSS Family White Color Scheme was chosen for text on Home and Footer pages.
+
+- The CSS Family Gray Color Scheme was chosen for text on other body sections.
+
 
 ## Features
 
