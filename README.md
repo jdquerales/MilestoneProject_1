@@ -238,12 +238,13 @@ In addition, if it is not obvious, you should also describe how to run your code
 
 ## Credits
 
-### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
-
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in portfolio section were obtained from [Pixabay](https://pixabay.com).
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from [Bootstrap Made](https://bootstrapmade.com/).
+- I would like to thank my mentor Dick Vlaanderen for his support and helpful suggestions.
+- I would like to thank my friends and colleagues from the Tyndall Institute, Ransell D'Souza and Manuel Odelli
+  for their feedback on the deployed website.
+- I would like to give an special thanks to Dermot Crinnigan for his support and feedback on the design of my project.
