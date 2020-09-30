@@ -1,9 +1,19 @@
-# Your Project's Name
+# Jose's Resumé
 
-One or two paragraphs providing an overview of your project.
+## Code Institute Milestone Project 1: User-Centric Frontend Development
 
-Essentially, this part is your sales pitch.
- 
+This project is part of my journey as a Software Developer in Code Institute. Here, you will find
+a clear and organized resumé of myself. I have included my work and education history, including
+my academic track record as a researcher in physics as well as my tech training in areas of data science 
+and software development. You will also find link to public social networks profiles such as Google Scholar, ResearchGate and LinkedIn,
+and my development projects available on GitHub. You will be able to download two different versions of my Resumé:
+a full academic curriculum and a summarised one highlighting my background, experience and skills.
+
+A live website: [Jose's Resumé](https://jdquerales.github.io/MilestoneProject_1/)
+
+![responsive mockups](/assets/images/responsive_screenshot.png)
+
+
 ## UX
  
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
