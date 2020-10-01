@@ -216,9 +216,9 @@ devices (mobile and tablet sizes):
 
 - Moto G4.
 
-- Galaxy S5
+- Galaxy S5.
 
-- Galaxy S9 (my own device)
+- Galaxy S9 (my own device).
 
 - iPhone 5/SE, iPhone 6/7/8, iPhone 6/7/8 Plus and  iPhone X.
 
