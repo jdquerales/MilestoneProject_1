@@ -314,9 +314,9 @@ Other user stories are related to the above described. **Everything working fine
    3. Verify that every section is appearing as we scroll through them.
    4. **Everything working fine**. 
 
-### Testing hoover effects
+### Testing hovering effects
 
-1. Hoovering  effects:
+1. Hovering  effects:
    1. Refresh the page.
    2. Hoover on navegation bar.
    3. Hoover on buttons and icons in Home page.
@@ -327,13 +327,35 @@ Other user stories are related to the above described. **Everything working fine
 
 ## Deployment
 
+### Public deployment
+
 This site is hosted using GitHub pages, deployed directly from the master branch.
-I first created a new repository on my GitHub account, and then I linked my repository the my GitPod 
-environment, where I edited all files before every commit.
+I followed the procedure:
 
-I used the GitPod terminal in order to add files, commit and push using Git version control.
+- I first created a new repository on my GitHub account.
 
-The deployed site will update automatically upon new commits to the master branch.
+- Then, I linked my repository the my GitPod environment by clicking on the "GitPod" green button available in GitHub.
+
+- Once in GitPod environment, I initialised my repository by using the command `git init`.
+
+- I used the GitPod terminal in order to add files, commit and push using Git version control.
+  For instance, `git add file_name` for adding changes to a particular file the stagging area or
+  `git add file_name` for adding all changes since the last commit.
+
+- Then, I sent all changes to the remote repository in GitHub by using the command `git push`.
+
+- Inmediately after, I went to my GitHub page and enter to the repository named: MilestoneProject_1.
+
+- Once in the repository I went to setting, on the right top side of the page, and scrolled down to GitHub pages.
+
+- I selected the master branch.
+
+- Finally a link to the live website appeared.
+
+Note:  The deployed site will update automatically upon new commits to the master branch.
+
+
+### Local deployment 
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting
 `git clone https://github.com/jdquerales/MilestoneProject_1.git` into your terminal
