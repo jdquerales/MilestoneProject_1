@@ -181,6 +181,9 @@ picture.
     - The project uses **HTML** as building block.
 - [CSS](https://www.w3.org/Style/CSS/Overview.en.html)
     - The project uses **Cascading Style Sheets (CSS)** for adding style to the website.
+
+## Libraries and Tools Used 
+
 - [Bootstrap (4.5.2)](https://getbootstrap.com/)
     - The project uses **Bootstrap** to design and customize responsive mobile-first sites.
 - [ScrollReveal](https://scrollrevealjs.org/)
