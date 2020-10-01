@@ -571,7 +571,7 @@ footer h3 {
     transform: scale(1);
   }
   to {
-    transform: scale(1.05);
+    transform: scale(1.10);
   }
 }
 
@@ -579,3 +579,4 @@ footer h3 {
 
 
 }
+
