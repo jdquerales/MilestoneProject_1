@@ -129,7 +129,7 @@ nav li {
 }
 
 .navbar-mobile-bg {
-  background-color: #fafafa;
+  background-color: rgba(0,0,0,0.8);
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -150,7 +150,9 @@ nav li {
 }
 
 .nav-item a {
-  color: #ffb727;
+  color: #f8f8ff;
+  font-family: "Reboto", sans-serif;
+  font-weight: 600;
 }
 
 .nav-item {
@@ -165,7 +167,7 @@ nav li {
 
 .nav-item a:hover {
   font-weight: 700;
-  color: #1e90ff;
+  color: #ffb727;
 }
 
 #navbarNavDropdown a {
