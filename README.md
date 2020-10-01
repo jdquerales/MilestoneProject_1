@@ -236,6 +236,16 @@ I also used **Am I Responsive?** to check my responsive design.
 
 I used **W3C** to check my HTML and CSS files, they are OK and without warnings or error messages.
 
+## HTML file validation:
+
+![HTML validation](/assets/images/html_validation.png)
+
+## CSS file validation:
+
+![HTML validation](/assets/images/css_validation.png)
+
+
+
 ### Testing user stories
 
 1.  **I want to view the developer’s educational background, so that I can determine 
